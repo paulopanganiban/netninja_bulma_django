@@ -1,6 +1,28 @@
-{% extends '_base.html' %}
+{% extends '_base.html' %} 
 {% block content %}
+<section class="section">
+    <div class="container">
+   <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
+    reprehenderit officiis unde mollitia. Harum eum architecto debitis iusto
+    odit repellat et corporis quam, eos distinctio dignissimos amet neque veniam
+    nihil.
+  </p>
+</div>
 
-<h1>Hello!</h1>
-<a href="#">hello</a>
+</section>
+<!-- breadcrumbs.html -->
+<section class="section">
+    <div class="container">
+        {% include 'bulma/breadcrumbs.html' %}
+    </div>
+</section>
+<!-- products -->
+<section class="section">
+    <div class="container">
+        {% include 'bulma/products.html' %}
+        {% include 'bulma/cards.html' %}
+        {% include 'bulma/modal.html' %}
+    </div>
+</section>
 {% endblock %}

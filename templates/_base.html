@@ -12,9 +12,13 @@
   />
 </head>
 <body class="base">
-    <div class="container">
+    <!-- Navbar.html -->
+    {% include '_navbar.html' %}
+    <div class="container ml-3">
         {% block content %}
         {% endblock %}
     </div>
 </body>
+
+<script src="{% static 'index.js' %}"></script>
 </html>

@@ -1,0 +1,23 @@
+{% load static %}
+
+<nav class="navbar has-shadow is-primary">
+    <div class="navbar-brand">
+        <a href="" class="navbar-item">
+            <!-- todo: make image dynamic through admin -->
+            <img style="max-height: 70px" class="py-2 px-2" src="{% static 'logo.png' %}" alt="logo">
+        </a>
+        <a class="navbar-burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+
+    <div class="navbar-menu" id="nav-links">
+        <!-- end -->
+        <div class="navbar-end">
+            <a href="" class="navbar-item">My Account</a>
+            <a href="" class="navbar-item mr-2">Shopping Cart (0)</a>
+        </div>
+    </div>
+</nav>
